@@ -1,0 +1,47 @@
+{
+    "rpc": "https://rpc.mahalo-3.initia.xyz/",
+    "rest": "https://lcd.mahalo-3.initia.xyz/",
+    "chainId": "mahalo-3",
+    "chainName": "Initia Devnet",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/initia/images/INIT.png",
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "init",
+      "bech32PrefixAccPub": "initpub",
+      "bech32PrefixValAddr": "initvaloper",
+      "bech32PrefixValPub": "initvaloperpub",
+      "bech32PrefixConsAddr": "initvalcons",
+      "bech32PrefixConsPub": "initvalconspub"
+    },
+    "stakeCurrency": {
+      "coinDenom": "INIT",
+      "coinMinimalDenom": "uinit",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/initia/images/INIT.png"
+    },
+    "currencies": [
+      {
+        "coinDenom": "INIT",
+        "coinMinimalDenom": "uinit",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/initia/images/INIT.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "INIT",
+        "coinMinimalDenom": "uinit",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/devnets/initia/images/INIT.png",
+        "gasPriceStep": {
+          "low": 0.15,
+          "average": 0.15,
+          "high": 0.15
+        }
+      }
+    ],
+    "features": []
+  }
+  
