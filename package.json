@@ -30,7 +30,7 @@
     "@keplr-wallet/common": "v0.12.231",
     "@keplr-wallet/cosmos": "v0.12.231",
     "@keplr-wallet/types": "v0.12.231",
-    "axios": "^0.27.2",
+    "axios": "^1.15.0",
     "bitcoinjs-lib": "^6.1.7",
     "cors": "^2.8.5",
     "esbuild": "^0.19.5",
